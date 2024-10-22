@@ -150,14 +150,74 @@ import time
 
 # Count down timer
 
-my_time = int(input("Enter the time in seconds: "))
+# my_time = int(input("Enter the time in seconds: "))
+#
+# for x in range(my_time,0,-1):
+#     seconds = x % 60
+#     minutes = int(x / 60) % 60
+#     hours = int(x / 3600)
+#
+#     print(f"{hours:02}:{minutes:02}:{seconds:02}")
+#     time.sleep(1)
+#
+# print('YOU ARE DEAD!!!💣💣💣💣')
 
-for x in range(my_time,0,-1):
-    seconds = x % 60
-    minutes = int(x / 60) % 60
-    hours = int(x / 3600)
+# Nested loops
 
-    print(f"{hours:02}:{minutes:02}:{seconds:02}")
-    time.sleep(1)
+# for x in range(3):
+#     for y in range(10):
+#         print(y, end='')
+#     print()
 
-print('YOU ARE DEAD!!!💣💣💣💣')
+
+# creating a pattern
+
+# iterations = int(input("How many iterations? "))
+#
+# for x in range(iterations):
+#     for y in range(iterations):
+#         print('*', end='')
+#     print()
+#     iterations -= 1
+
+
+# Lists [] mutable, duplicate ok
+
+# fruits = ['Apple', 'Orange', 'Banana', 'Pear']
+
+# print(fruits)
+# length of list []
+# print(len(fruits))
+
+# replacing the value in a list
+# fruits[2] = 'Pineapple'
+
+# adding an element to a list
+# fruits.append('Mango')
+
+# removing an element
+# fruits.remove('Orange')
+
+# reversing occurrence of a list
+# fruits.reverse()
+
+# sorting a list alphabetically
+# fruits.sort()
+
+# reversing occurrence of a list alphabetically
+# fruits.sort()
+# fruits.reverse()
+
+# counting how many times an element occurs in a list
+# print(fruits.count('Orange'))
+
+# Getting the index of an element
+# print(fruits.index('Orange'))
+
+# Adding an element at a given position in the list
+# fruits.insert(2,'Coconut')
+
+# Clearing a list
+# fruits.clear()
+# print(fruits)
+
